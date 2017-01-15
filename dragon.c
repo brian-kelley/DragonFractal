@@ -184,7 +184,6 @@ int main(int argc, const char** argv)
   w = 1000;
   h = 1000;
   maxTurns = (1 << iters) - 1;
-  printf("have %i turns.\n", maxTurns);
   turnBuf = calloc(maxTurns, sizeof(Turn));
   getPath();
   createImage();
